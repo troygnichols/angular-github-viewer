@@ -1,0 +1,7 @@
+<form name="searchUser" ng-submit="search(username)">
+  <input type="search" autofocus required placeholder="Github username"
+  ng-model="username"/>
+  <input type="submit" value="Find on Github"/>
+</form>
+
+<div ng-show="countdown">{{ countdown }}</div>
